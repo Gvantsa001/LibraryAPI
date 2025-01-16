@@ -19,3 +19,12 @@ This is a simple RESTful Web API for a bookstore built with ASP.NET Core
 - Swagger UI
 - C#
 
+
+## Setup
+1. Clone the repository.
+2. Run `dotnet restore`.
+3. Configure the connection string in `appsettings.json`.
+4. Run `dotnet ef database update`.
+5. Start the project: `dotnet run`.appsettings.json
+- 
+
