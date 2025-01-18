@@ -26,5 +26,24 @@ This is a simple RESTful Web API for a bookstore built with ASP.NET Core
 3. Configure the connection string in `appsettings.json`.
 4. Run `dotnet ef database update`.
 5. Start the project: `dotnet run`.appsettings.json
-- 
+API Endpoints
 
+##Books Endpoints
+
+GET /api/books: Get a list of all books.
+
+GET /api/books/{id}: Get a specific book by ID.
+
+POST /api/books: Create a new book.
+
+PUT /api/books/{id}: Update an existing book.
+
+DELETE /api/books/{id}: Delete a book.
+
+##Authors Endpoints
+
+GET /api/authors/{id}: Get a specific author by ID.
+
+POST /api/authors: Create a new author.
+
+PUT /api/authors/{id}: Update an existing author.
